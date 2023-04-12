@@ -1,0 +1,127 @@
+{
+  "type" : "FeatureCollection", 
+  "features" : [
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Klaus",
+        "description" : "<p><strong>Klaus Advanced Computing Building</strong><ul><li>-Funded in 2000 by Chris Klaus, a GT Grad</li><li>-Officially opened October 26, 2006</li><li>-Occupies the land where the health center used to be, new health center (stamps) is by the campus recreation center</li><li>-Home of the Binary Bridge, named for the glass paneling with the word klaus written over and over in binary </li></ul></p>" 
+      },
+      "geometry": {
+        "coordinates": [-84.3958, 33.7770],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "CULC",
+        "description": "<p><strong>Clough Undergraduate Learning Center</strong><ul><li>-In planning for more than 10 years</li><li>-Inaugurated August 2011</li><li>-8.75 million in funding was provided by an anonymous donor</li><li>-Named after the campus president at the time</li><li>-Features Solar panels, a rain collection cistern, daylight harvesting and motion sensor lighting, and efficient ventilation systems as part of green initiatives</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3964, 33.7749],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "CoC",
+        "description": "<p><strong>College of Computing</strong><ul><li>-Opened October 26, 2006</li><li>-Linked with Klaus via the Binary Bridge</li><li>-Formally home to two schools, the School of Interactive Computing and the School of Computer Science</li><li>-The programs associated with the CoC are consistently top 10 in the nation in their respective categories</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3973, 33.7772],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Student Center",
+        "description": "<p><strong>Campus Student Center</strong><ul><li>-Home of the Campaniele, formerly featured in the Georgia Tech Logo</li><li>-Also known as the Wenn Building</li><li>-Recently renovated, making modifications to the Wenn building to accommodate more students</li><li>-Amenities and Organizations: Tech Recreation, Wrek Radio, Dining Halls, Miscellaneous Student Org Spaces, Student Govt. Assn., Large Theatre, and more</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3985, 33.774],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title" : "Exhibition Hall",
+        "description": "<p><strong>The Exhibition Hall</strong><ul><li>-All rooms are named after local streets or areas</li><li>-Regularly hosts large scale events</li><li>-Built as part of the effort to revitalize the campus center along with the student center</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4017, 33.7747],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bobby Dodd Stadium",
+        "description": "<p><strong>Bobby Dodd Stadium</strong><ul><li>-Home to the yellow jackets in rough form since 1905 and as an official stadium since 1913</li><li>-The stadium itself was built around the historic grant field, named for hugh inman grant</li><li>-Named after the titular Bobby Dodd, who has the most wins of any coach in yellow jacket history</li><li>-Has a total seating capacity of 55,000 people, up from the original 7,000 by a wide margin. The all-time high was 58,121.</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3923, 33.7725],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Brittain Dining Hall",
+        "description": "<p><strong>Brittain Dining Hall</strong><ul><li>-Primary dining hall on east campus</li><li>-Opened in 1928, renovated in 1964, 1999, 2002, and 2007</li><li>-Two dining floors, but the second one is often restricted due to student`s innovative interpretation of the phrase `food on the fly`</li><li>-The entrance is marked by a `Georgia School of Technology` seal, showing how old this building is</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3913, 33.7725],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "North Avenue Apartments",
+        "description": "<p><strong>North Avenue Apartments</strong><ul><li>-Transferred from Georgia State to Georgia Tech in 2007</li><li>-Originally constructed for the 1996 summer olympics, opening in 1995 as housing for athletes and journalists</li><li>-Split into 4 segments, North, East, South, and West. It is widely agreed upon that `West is Best` and the courtyard these segments surround is the final destination for an unknown, non-suspicious end of semester tradition</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3914, 33.77],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Fitten Residence Hall",
+        "description": "<p><strong>Fitten Residence Hall</strong><ul><li>-Built in 1972</li><li>-Houses 128 students</li><li>-Part of the Georgia Tech Freshman Experience</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4037, 33.7782],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Kendeda Building",
+        "description": "<p><strong>The Kendeda Building</strong><ul><li>-The Greenest Classroom building in Georgia</li><li>-28th Building in the World to earn the Living Building Challenge certification</li><li>-Net energy and water positive</li><li>-Incorporated salvage in its construction, diverting more waste from landfills than it sent</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3996, 33.7786],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Howey Physics Buidling",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3986, 33.7775],
+        "type": "Point"
+      }
+    }
+  ]
+}
+
