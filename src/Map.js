@@ -36,14 +36,24 @@ const Map = () => {
     // Add navigation control (the +/- zoom buttons)
     map.addControl(new mapboxgl.NavigationControl(), "top-right");
 
-    map.addControl(
-      new mapboxgl.GeolocateControl({
-        positionOptions: {
-          enableHighAccuracy : true
-        }, 
-        trackUserLocation : true
-      }),
-    "top-left");
+    var geolocate = new mapboxgl.GeolocateControl(new mapboxgl.GeolocateControl({
+      positionOptions: {
+        enableHighAccuracy : true
+      }, 
+      trackUserLocation : true
+    }));
+
+    map.addControl(geolocate, "top-left");
+
+    geolocate.on('geolocate', function(e) {
+      var lon = e.coords.longitude;
+      var lat = e.coords.latitude
+      var position = [lon, lat];
+      console.log(position);
+    }); 
+
+    
+
 
     // Render custom marker components
     geoJson.features.forEach((feature) => {
