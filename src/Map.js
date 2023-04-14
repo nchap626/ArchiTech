@@ -113,8 +113,8 @@ const Map = () => {
             }; 
           }
 
-          //if point in distance, render it
-          if (distance < 0.5 || isVisited) {
+          //if distance for point is less than X, render it
+          if (distance < 0.1 || isVisited) {
             currentMarkers[i].addTo(map)
           } else {
             currentMarkers[i].remove()
@@ -139,9 +139,20 @@ const Map = () => {
       .setHTML(feature.properties.description)
       .addTo(mapRef.current);
     
-    visited.push(feature.properties.title)
+    //if not in visited list, add it
+    var tracked = false
+    for (var k = visited.length - 1; k >= 0; k--) {
+      if(feature.properties.title === visited[k]){
+        tracked = true;
+      }; 
+    };
+    
+    if(!tracked){
+      visited.push(feature.properties.title)
+    }
+    
     localStorage.setItem("visitedList", JSON.stringify(visited))
-    // console.log(visited)
+    console.log(visited)
   };
 
   return <div className="map-container" ref={mapContainerRef} />;
