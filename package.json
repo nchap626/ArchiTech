@@ -2,6 +2,8 @@
   "name": "markers-custom",
   "version": "0.1.0",
   "dependencies": {
+    "@turf/distance": "^6.5.0",
+    "@turf/turf": "^6.5.0",
     "mapbox-gl": "^1.11.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
