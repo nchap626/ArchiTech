@@ -85,7 +85,7 @@ const Map = () => {
       // console.log(currentMarkers)
 
       featureArr.push(feature)
-      console.log(featureArr)
+      // console.log(featureArr)
     });
     
     
@@ -104,8 +104,11 @@ const Map = () => {
 
           //check if a place is visited
           var isVisited = false;
-          for (var j = visited.length - 1; j >= 0; j--) {
-            if(featureArr[i].properties.title === visited[j]){
+          var localVisited = localStorage.getItem("visitedList")
+          localVisited = JSON.parse(localVisited)
+
+          for (var j = localVisited.length - 1; j >= 0; j--) {
+            if(featureArr[i].properties.title === localVisited[j]){
               isVisited = true;
             }; 
           }
@@ -137,7 +140,8 @@ const Map = () => {
       .addTo(mapRef.current);
     
     visited.push(feature.properties.title)
-    console.log(visited)
+    localStorage.setItem("visitedList", JSON.stringify(visited))
+    // console.log(visited)
   };
 
   return <div className="map-container" ref={mapContainerRef} />;
