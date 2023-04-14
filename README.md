@@ -1,8 +1,8 @@
 ### Run it
 
-    git clone https://github.com/mapbox/mapbox-react-examples.git
-
-    cd mapbox-react-examples/markers-custom
+    git clone https://github.com/nchap626/ArchiTech.git
+    
+    cd ArchiTech
     npm install
     npm start
 
