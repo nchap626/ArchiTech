@@ -20,6 +20,8 @@ const Marker = ({ onClick, children, feature }) => {
   );
 };
 
+var visited = [];
+
 const Map = () => {
   const mapContainerRef = useRef(null);
   const mapRef = useRef(null);
@@ -60,6 +62,7 @@ const Map = () => {
 
 
     var currentMarkers = []
+    var featureArr = []
     // Render custom marker components and store in above array
     geoJson.features.forEach((feature) => {
 
@@ -79,7 +82,10 @@ const Map = () => {
         .setLngLat(feature.geometry.coordinates);
       
       currentMarkers.push(newMarker) 
-      console.log(currentMarkers)
+      // console.log(currentMarkers)
+
+      featureArr.push(feature)
+      console.log(featureArr)
     });
     
     
@@ -96,8 +102,16 @@ const Map = () => {
           var distance = turf.distance(from, to, options);
           // console.log(distance);
 
+          //check if a place is visited
+          var isVisited = false;
+          for (var j = visited.length - 1; j >= 0; j--) {
+            if(featureArr[i].properties.title === visited[j]){
+              isVisited = true;
+            }; 
+          }
+
           //if point in distance, render it
-          if (distance < 0.5) {
+          if (distance < 0.5 || isVisited) {
             currentMarkers[i].addTo(map)
           } else {
             currentMarkers[i].remove()
@@ -108,7 +122,7 @@ const Map = () => {
 
       }; 
 
-    }, 5000); 
+    }, 2000); 
 
 
 
@@ -121,6 +135,9 @@ const Map = () => {
       .setLngLat(feature.geometry.coordinates)
       .setHTML(feature.properties.description)
       .addTo(mapRef.current);
+    
+    visited.push(feature.properties.title)
+    console.log(visited)
   };
 
   return <div className="map-container" ref={mapContainerRef} />;
