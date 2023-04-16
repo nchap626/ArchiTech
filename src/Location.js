@@ -56,7 +56,7 @@ function Location() {
             <div className='locations'>
                 <h1 id='result'></h1>
             </div>
-            <small><center>ArchiTech was brought to you by Summer Sneed, Alma Nkemla, Nick Chapman, and Samuel Sanders.</center></small>
+            <small><center>ArchiTech was brought to you by Summer Sneed and Nick Chapman.</center></small>
         </div>
     );
 }
