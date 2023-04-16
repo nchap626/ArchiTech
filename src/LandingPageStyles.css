@@ -1,0 +1,57 @@
+.landing-page {
+    background-color: #B3A369;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.lbutton {
+  background-color: white;
+  border: solid;
+  color: #B3A369;
+  padding: 20px 135px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 400px;
+  height: 80px;
+}
+
+.lbutton1 {
+  background-color: white;
+  border: solid;
+  color: #B3A369;
+  padding: 20px 135px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 400px;
+  height: 80px;
+}
+
+.lparent {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .3fr .3fr;
+}
+
+.ltitle {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .5fr;
+}
+
+.lparent2 {
+  display: grid;
+  grid-template-columns: 0.8fr .8fr;
+}

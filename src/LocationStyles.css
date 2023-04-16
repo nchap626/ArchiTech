@@ -1,0 +1,79 @@
+.location-page {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: #B3A369;
+}
+
+.locparent {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .3fr .3fr;
+}
+
+.loctitle {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .5fr;
+}
+
+.locparent2 {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .5fr .5fr;
+}
+
+.locbutton2 {
+    background-color: white;
+    border: solid;
+    color: #B3A369;
+    padding: 20px 135px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 400px;
+    height: 80px;
+}
+
+.locbutton {
+    background-color: white;
+    border: solid;
+    color: #B3A369;
+    padding: 20px 135px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 400px;
+    height: 80px;
+}
+
+.locbutton1 {
+    background-color: white;
+    border: solid;
+    color: #B3A369;
+    padding: 20px 135px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 400px;
+    height: 80px;
+}
+  
+.locations {
+    border: solid;
+    width: 800px;
+    height: 400px;
+}
