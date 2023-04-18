@@ -7,6 +7,8 @@ import * as turf from "@turf/turf"
 import DateTime from "./DateTime";
 import { useNavigate } from "react-router-dom";
 
+const start = new Date().getTime();
+
 mapboxgl.accessToken =
   "pk.eyJ1IjoibmNoYXA2MjYiLCJhIjoiY2xnY3VoYTQ0MHJ2aDNobnppeW85Ym5mNiJ9.AddFfspa30LJ5D0zgfmL-w";
 
@@ -134,7 +136,7 @@ const Map = () => {
     // Clean up on unmount
     return () => map.remove();
   });
-
+  var count = 0;
   const markerClicked = (feature) => {
     new mapboxgl.Popup(mapRef.current)
       .setLngLat(feature.geometry.coordinates)
@@ -151,12 +153,14 @@ const Map = () => {
     
     if(!tracked){
       visited.push(feature.properties.title)
+      count++
     }
     
     localStorage.setItem("visitedList", JSON.stringify(visited))
-    console.log(visited)
+    //console.log(visited)
   };
-
+    const timeTaken = new Date().getTime() - start;
+    console.log("Map Loading Time: " + timeTaken + "ms");
   let navigate = useNavigate();
     const navigateToHome = () =>{ 
         let path = `/`; 
@@ -168,6 +172,18 @@ const Map = () => {
         navigate(path);
     }
 
+    var localStorageSpace = function(){
+      var allStrings = '';
+      for(var key in window.localStorage){
+          if(window.localStorage.hasOwnProperty(key)){
+              allStrings += window.localStorage[key];
+          }
+      }
+      return allStrings ? 3 + ((allStrings.length*16)/(8*1024)) + ' KB' : 'Empty (0 KB)';
+  };
+
+  console.log(localStorageSpace())
+  console.log(localStorage.getItem("visitedList"))
   return (
     <div className="map page">
       <div className="top-page">

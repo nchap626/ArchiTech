@@ -121,6 +121,237 @@
         "coordinates": [-84.3986, 33.7775],
         "type": "Point"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Montag Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4040, 33.7779],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Caldwell Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4044, 33.7788],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Folk Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4048, 33.7788],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Eighth Street Apartments",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4050, 33.7803],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "West Village",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4047, 33.7790],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mason Building",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3988, 33.7766],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Campus Recreation Center",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4034, 33.7755],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Maulding Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4056, 33.7770],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ZBar Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4048, 33.7776],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Nelson-Shell Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.4058, 33.7784],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Fourth Street Houses",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3917, 33.7749],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Matheson Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3917, 33.7745],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tech Tower",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3947, 33.7724],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cloudman Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3917, 33.7728],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Howell Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3908, 33.7721],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Harris Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3910, 33.7727],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Brown Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3918, 33.7717],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Smith Hall",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.39112, 33.7715],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Skiles",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3962, 33.7737],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ferst Center for the Arts",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3992, 33.7752],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Skiles",
+        "description": "<p><strong>Howey Physics Building</strong><ul><li>-Home to the Physics Department, one of the original eight departments created</li><li>-Built in 1967</li><li>-If looked at from the top, the building resembles an H in structure</li><li>-Named after Joseph Howey, director of the school of physics  from 1935 to 1963</li></ul></p>"
+      },
+      "geometry": {
+        "coordinates": [-84.3962, 33.7737],
+        "type": "Point"
+      }
     }
   ]
 }

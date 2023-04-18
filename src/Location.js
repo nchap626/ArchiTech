@@ -15,7 +15,7 @@ function Location() {
         let path = `/map`; 
         navigate(path);
     }
-
+    var count = 0
     const seeLocations = () => {
         var localVisited = localStorage.getItem("visitedList")
         var visited = JSON.stringify(localVisited)
@@ -28,11 +28,12 @@ function Location() {
             }
             visited[place] = visited[place].substring(0, visited[place].length - 1)
             newVisited += visited[place] + "<br>"
+            count++;
         }
         localStorage.visited = newVisited
         document.getElementById("result").innerHTML = localStorage.visited;
     }   
-    
+    console.log("Locations Learned: " + count)
     return (
         <div className='location-page'>
             <div className="locparent">
