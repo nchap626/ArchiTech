@@ -1,26 +1,19 @@
 .map-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 98.5vw;
+  height: 100vh;
 }
 
-.sidebarStyle {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 12px;
-  background-color: #404040;
-  color: #ffffff;
-  z-index: 1 !important;
-  padding: 6px;
-  font-weight: bold;
+.top-page {
+  background-color: #B3A369;
+  left: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .marker {
-  background-color: #4CAF50;
+  background-color: gold;
   border: 1px solid blue;
   color: white;
   padding: 20px;
@@ -30,4 +23,50 @@
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 50%;
+}
+
+.parent {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .3fr .3fr;
+}
+
+.title {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.5fr .5fr;
+}
+
+.parent2 {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 0.8fr .8fr;
+}
+
+.button1 {
+  background-color: white;
+    border: solid;
+    color: #B3A369;
+    padding: 20px 135px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 400px;
+    height: 80px;
+}
+
+.button {
+  background-color: white;
+    border: solid;
+    color: #B3A369;
+    padding: 20px 135px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 400px;
+    height: 80px;
 }

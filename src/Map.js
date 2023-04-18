@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import geoJson from "./tech-locations.json";
 import "./Map.css";
 import * as turf from "@turf/turf"
+import DateTime from "./DateTime";
+import { useNavigate } from "react-router-dom";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoibmNoYXA2MjYiLCJhIjoiY2xnY3VoYTQ0MHJ2aDNobnppeW85Ym5mNiJ9.AddFfspa30LJ5D0zgfmL-w";
@@ -155,7 +157,40 @@ const Map = () => {
     console.log(visited)
   };
 
-  return <div className="map-container" ref={mapContainerRef} />;
+  let navigate = useNavigate();
+    const navigateToHome = () =>{ 
+        let path = `/`; 
+        navigate(path);
+    }
+
+    const navigateToLocations = () =>{ 
+        let path = `/locations`; 
+        navigate(path);
+    }
+
+  return (
+    <div className="map page">
+      <div className="top-page">
+        <div className="parent">
+          <div className="date">
+            <DateTime></DateTime>
+          </div>
+          <div className="img">
+            <img src='building.png' width={100} height={80} alt='logo'></img>
+          </div>
+          <div className="title">
+            <h1 style={{fontSize: 100, color:"navy blue"}}>Archi</h1>
+            <h1 style={{fontSize: 100, color:"white"}}>Tech</h1>
+          </div>
+        </div>
+        <div className="parent2">
+          <button class="button1" onClick={navigateToHome}>Back To Home</button>
+          <button class="button" onClick={navigateToLocations}>Learned Locations</button>
+        </div>
+      </div>
+      <div className="map-container" ref={mapContainerRef} />;
+  </div>
+  )
 };
 
 export default Map;
