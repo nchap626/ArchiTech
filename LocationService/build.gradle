@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.0.5'
+    id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.architect'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'mysql:mysql-connector-java:8.0.27'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.security:spring-security-config:6.0.2'
+    implementation 'org.springframework.security:spring-security-web:6.0.2'
+    implementation 'org.springframework.roo:org.springframework.roo.addon.security:2.0.0.RELEASE'
+    implementation 'org.springframework.webflow:org.springframework.js:2.0.5.RELEASE'
+    implementation 'org.springframework.security.kerberos:spring-security-kerberos-web:1.0.1.RELEASE'
+    implementation 'org.springframework.webflow:org.springframework.js:2.0.5.RELEASE'
+    implementation 'org.springframework.webflow:org.springframework.binding:2.0.5.RELEASE'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'org.sonatype.security:security-web:3.3'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
